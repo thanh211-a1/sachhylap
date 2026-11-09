@@ -1,0 +1,6 @@
+{
+  "name": "Sách Điện Tử Lịch Sử: Chữ Viết & Văn Học Hy Lạp – La Mã",
+  "description": "Sách điện tử tương tác cao cấp phục vụ thao giảng Lịch sử tại Trường THPT Cẩm Phả: Thành tựu tiêu biểu của văn minh Hy Lạp – La Mã cổ đại (Chữ viết và Văn học).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

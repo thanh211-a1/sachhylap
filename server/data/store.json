@@ -1,0 +1,139 @@
+{
+  "adminPasswordHash": "thptcampha2026",
+  "settings": {
+    "schoolName": "TRƯỜNG THPT CẨM PHẢ",
+    "department": "SỞ GD-ĐT QUẢNG NINH",
+    "motto": "SÁNG TẠO – KHÁM PHÁ – CHINH PHỤC TRI THỨC",
+    "logoUrl": "/assets/aistudio/cb_7e68ff2b.jpg",
+    "introEnabled": true,
+    "introDuration": 20,
+    "introTitle": "THÀNH TỰU TIÊU BIỂU CỦA VĂN MINH HY LẠP – LA MÃ CỔ ĐẠI",
+    "introSubtitle": "CHỮ VIẾT VÀ VĂN HỌC",
+    "introBackground": "/assets/aistudio/jlaDpk5u20iorhjusbgqA7ilQwEX57_FlxRRwpMZR9IhHvhVsQovmbHcTvCP3hQLLuRA_9hSs-z64Dr6h_JwtdYfflflL-qj0YL55KN_5Fn8RsCl36IF2oDQtPzTkH4K03T5zLlwn8-pmqtmYX6BWxVOrQQHcSB3PniENFVcRUyzuyv4tarSkbvDvJgeLi3r_20eccc00.jpg",
+    "introAudioUrl": "",
+    "presentationSoundEnabled": true
+  },
+  "narrations": {
+    "page2": {
+      "url": "/uploads/Hy_L___p_v___La_M__-d6be10fbe1_10fbe1_1794228452598_9677.mp3",
+      "title": "Lời mở đầu"
+    },
+    "page4": {
+      "url": "",
+      "title": "Chữ viết Hy Lạp"
+    },
+    "page5": {
+      "url": "",
+      "title": "Chữ viết La Mã"
+    },
+    "page6": {
+      "url": "",
+      "title": "Chữ Latin & Chữ Quốc ngữ"
+    },
+    "page7": {
+      "url": "",
+      "title": "Văn học Hy Lạp & La Mã"
+    },
+    "page8_general": {
+      "url": "",
+      "title": "Thế giới thần thoại Hy Lạp"
+    },
+    "page8_zeus": {
+      "url": "",
+      "title": "Thần Zeus"
+    },
+    "page8_athena": {
+      "url": "",
+      "title": "Nữ thần Athena"
+    },
+    "page8_poseidon": {
+      "url": "",
+      "title": "Thần Poseidon"
+    },
+    "page8_apollo": {
+      "url": "",
+      "title": "Thần Apollo"
+    },
+    "page8_aphrodite": {
+      "url": "",
+      "title": "Nữ thần Aphrodite"
+    },
+    "page9": {
+      "url": "",
+      "title": "Sử thi Iliad",
+      "videoUrl": ""
+    },
+    "page10": {
+      "url": "",
+      "title": "Sử thi Odyssey",
+      "videoUrl": ""
+    },
+    "page13": {
+      "url": "",
+      "title": "Tổng kết"
+    }
+  },
+  "media": [
+    {
+      "id": "med_1794228452624_f4th0",
+      "filename": "Hy_L___p_v___La_M__-d6be10fbe1_10fbe1_1794228452598_9677.mp3",
+      "originalName": "Hy Láº¡p vÃ  La MÃ£-d6be10fbe1_10fbe1.mp3",
+      "url": "/uploads/Hy_L___p_v___La_M__-d6be10fbe1_10fbe1_1794228452598_9677.mp3",
+      "type": "audio",
+      "size": 542555,
+      "uploadedAt": "2026-11-09T12:47:32.624Z",
+      "targetPage": "page8",
+      "targetSection": "page2",
+      "description": "Hy Láº¡p vÃ  La MÃ£-d6be10fbe1_10fbe1.mp3"
+    },
+    {
+      "id": "default_logo",
+      "filename": "cb_7e68ff2b.jpg",
+      "originalName": "Logo THPT Cam Pha.jpg",
+      "url": "/assets/aistudio/cb_7e68ff2b.jpg",
+      "type": "image",
+      "size": 45000,
+      "uploadedAt": "2026-11-09T12:46:01.649Z",
+      "targetPage": "all",
+      "targetSection": "logo",
+      "description": "Logo chính thức Trường THPT Cẩm Phả"
+    },
+    {
+      "id": "default_athena_gold",
+      "filename": "GHf3TnmU3jU9a7PmPuiXDdg1f8Bh7IDd.jpg",
+      "originalName": "Tuong Nu than Athena vang.jpg",
+      "url": "/assets/aistudio/GHf3TnmU3jU9a7PmPuiXDdg1f8Bh7IDd_CprUEoHy4CGBA9sPCjfsqdaEHyQcm9MbDGxXSSLAEbkCbjTahdku9gms9TjtLD_07isAmgVwVig5pTmJ87G0NjRbFKFIeGG12hG88YVAhVrBCNYhmKSbj_BnC5v9yakiVz_jer-Rg2kWlhEAwKDrx3notxLDzl0_243d46c3.jpg",
+      "type": "image",
+      "size": 380000,
+      "uploadedAt": "2026-11-09T12:46:01.650Z",
+      "targetPage": "page8",
+      "targetSection": "athena",
+      "description": "Tượng nữ thần Athena Parthenos"
+    },
+    {
+      "id": "default_athena_museum",
+      "filename": "mmUfHoUwqJ9FPYhU3mHtUwZ8OiiMZay.jpg",
+      "originalName": "Tuong Athena bao tang.jpg",
+      "url": "/assets/aistudio/mmUfHoUwqJ9FPYhU3mHtUwZ8OiiMZayFwL5qpJKXhLIs2tQDtWb6RR0iiONOXIBwp4RkVgHYEi9l-wU8Mf3xcH_1oh0rQDeg9RU0SejSdiqzI0knQobE5BngCfYbHSMD6pnWTOf72XdFOQeXg2woeTBWKX0-tyq4hQ1be5R0-kwFqAB6idShxCln2Nk2f7E0_ade28469.jpg",
+      "type": "image",
+      "size": 190000,
+      "uploadedAt": "2026-11-09T12:46:01.650Z",
+      "targetPage": "page8",
+      "targetSection": "athena_statue",
+      "description": "Tượng cẩm thạch nữ thần Athena tại bảo tàng"
+    },
+    {
+      "id": "default_parthenon_sunset",
+      "filename": "jlaDpk5u20iorhjusbgqA7ilQwEX57.jpg",
+      "originalName": "Den Parthenon hoang hon.jpg",
+      "url": "/assets/aistudio/jlaDpk5u20iorhjusbgqA7ilQwEX57_FlxRRwpMZR9IhHvhVsQovmbHcTvCP3hQLLuRA_9hSs-z64Dr6h_JwtdYfflflL-qj0YL55KN_5Fn8RsCl36IF2oDQtPzTkH4K03T5zLlwn8-pmqtmYX6BWxVOrQQHcSB3PniENFVcRUyzuyv4tarSkbvDvJgeLi3r_20eccc00.jpg",
+      "type": "image",
+      "size": 420000,
+      "uploadedAt": "2026-11-09T12:46:01.650Z",
+      "targetPage": "page1",
+      "targetSection": "cover",
+      "description": "Đền Parthenon rực rỡ trong ánh hoàng hôn"
+    }
+  ],
+  "pageContentOverrides": {}
+}

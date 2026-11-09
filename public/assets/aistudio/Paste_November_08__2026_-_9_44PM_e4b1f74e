@@ -1,0 +1,1129 @@
+# DỰ ÁN: XÂY DỰNG SÁCH ĐIỆN TỬ LỊCH SỬ TƯƠNG TÁC CAO CẤP
+
+## CHỦ ĐỀ
+**THÀNH TỰU TIÊU BIỂU CỦA VĂN MINH HY LẠP – LA MÃ CỔ ĐẠI: CHỮ VIẾT VÀ VĂN HỌC**
+
+Bạn là chuyên gia thiết kế UI/UX cao cấp, chuyên gia xây dựng sản phẩm giáo dục số, lập trình viên Full-stack và chuyên gia tạo hiệu ứng tương tác 3D.
+
+Hãy xây dựng một website sách điện tử lịch sử hoàn chỉnh, chuyên nghiệp, có chất lượng như một sản phẩm triển lãm bảo tàng kỹ thuật số, phục vụ buổi thao giảng tại Trường THPT Cẩm Phả.
+
+Đây không phải website giới thiệu thông thường, không phải PowerPoint và không phải trang trình chiếu ngang.
+
+Sản phẩm phải là một hệ thống gồm:
+1. Màn hình giới thiệu INTRO điện ảnh độc lập.
+2. Cuốn sách điện tử tương tác dạng dọc.
+3. Hệ thống quản trị ADMIN riêng biệt.
+4. Hệ thống upload và quản lý hình ảnh, video, âm thanh từ thiết bị.
+5. Trò chơi tương tác và bài kiểm tra kiến thức.
+6. Chế độ trình chiếu chuyên nghiệp dành cho giáo viên.
+
+Yêu cầu thực hiện sản phẩm hoàn chỉnh, có chức năng thật, dữ liệu thật và giao diện đẹp.
+
+---
+
+# PHẦN I. ĐỊNH HƯỚNG THIẾT KẾ TOÀN BỘ WEBSITE
+
+## 1. Phong cách thiết kế
+
+Kết hợp các phong cách:
+
+- Ancient Greek & Roman Civilization.
+- Cinematic Historical Experience.
+- Premium Interactive Digital Book.
+- Museum Exhibition Experience.
+- Modern Educational Technology.
+- Luxury Ancient Manuscript.
+
+Cảm giác khi truy cập website giống như bước vào một bảo tàng lịch sử kỹ thuật số, nơi người dùng được khám phá những di sản cổ đại bằng công nghệ hiện đại.
+
+## 2. Bảng màu chủ đạo
+
+Tuyệt đối không sử dụng nền trắng đơn điệu làm màu chủ đạo.
+
+Sử dụng bảng màu:
+
+- Vàng đồng cổ đại: #C69C50.
+- Vàng ánh kim: #E7C77A.
+- Nâu giấy da: #B58A59.
+- Nâu trầm: #39271D.
+- Đỏ đất nung: #A64B35.
+- Xanh Địa Trung Hải: #174B58.
+- Xanh cổ đại: #286B70.
+- Đen đá núi lửa: #171614.
+
+Kết hợp các màu sắc trên một cách hài hòa, có chiều sâu, không quá tối và không quá sặc sỡ.
+
+Các trang phải có độ tương phản cao, chữ dễ đọc khi trình chiếu trên máy chiếu.
+
+## 3. Thiết kế sách dọc – yêu cầu bắt buộc
+
+Đây là yêu cầu quan trọng nhất về bố cục.
+
+Cuốn sách phải có dạng dọc (PORTRAIT E-BOOK).
+
+- Tỷ lệ trang 3:4 hoặc 4:5.
+- Mỗi trang là một trang sách đứng độc lập.
+- Nội dung sắp xếp từ trên xuống dưới.
+- Không thiết kế hai trang sách mở song song.
+- Không biến sách thành slide ngang.
+- Không dồn toàn bộ nội dung vào một trang dài.
+- Mỗi chủ đề chính phải có trang riêng.
+- Cuốn sách luôn nằm ở chính giữa màn hình.
+- Có hiệu ứng lật trang 3D.
+- Tối ưu trên máy tính, điện thoại và máy tính bảng.
+
+Trên máy tính, trang sách phải lớn, rõ và cân đối. Trên điện thoại, sách tự động co giãn phù hợp nhưng vẫn giữ tỷ lệ dọc.
+
+**Lưu ý: Màn hình INTRO được phép sử dụng bố cục ngang toàn màn hình, nhưng khi vào sách phải chuyển sang bố cục sách dọc.**
+
+## 4. Hiệu ứng hình ảnh
+
+Tạo hiệu ứng cao cấp:
+
+- Lật trang sách 3D chân thực.
+- Bóng đổ giấy tự nhiên.
+- Ánh sáng vàng chuyển động.
+- Bụi vàng và hạt sáng bay trong không gian.
+- Hiệu ứng parallax.
+- Nội dung xuất hiện theo từng lớp.
+- Chữ viết xuất hiện như được viết bằng bút cổ.
+- Hình ảnh phóng to khi rê chuột.
+- Biểu tượng thần thoại phát sáng.
+- Chuyển cảnh cinematic.
+- Hiệu ứng cuộn giấy cổ.
+- Hiệu ứng ánh sáng khi mở trang.
+- Hiệu ứng chuyển động tinh tế khi tương tác.
+
+Không lạm dụng hiệu ứng gây rối mắt, giật lag hoặc làm khó đọc nội dung.
+
+---
+
+# PHẦN II. MÀN HÌNH INTRO ĐỘC LẬP – ĐIỆN ẢNH
+
+Đây là một khu vực hoàn toàn riêng biệt với cuốn sách.
+
+Khi người dùng truy cập website, phải xuất hiện màn hình INTRO ngay lập tức.
+
+Không được hiển thị trang bìa sách ngay khi vừa mở website.
+
+Trình tự bắt buộc:
+
+**MỞ WEBSITE → INTRO ĐIỆN ẢNH → GIỚI THIỆU TRƯỜNG → GIỚI THIỆU CHỦ ĐỀ → NÚT BẮT ĐẦU → CHUYỂN CẢNH → CUỐN SÁCH XUẤT HIỆN.**
+
+## 1. Không gian INTRO
+
+Thiết kế màn hình toàn màn hình 100vw × 100vh.
+
+Phong cách:
+
+- Không gian Hy Lạp – La Mã cổ đại.
+- Đền Parthenon hùng vĩ.
+- Cột đá cẩm thạch.
+- Bầu trời cổ đại.
+- Ánh sáng vàng xuyên qua các công trình.
+- Bụi vàng bay nhẹ.
+- Camera chuyển động chậm.
+- Chiều sâu không gian điện ảnh.
+- Nhạc nền hùng tráng.
+
+Tạo cảm giác như một bộ phim giới thiệu triển lãm lịch sử.
+
+## 2. Kịch bản INTRO chi tiết
+
+Thời lượng dự kiến 18–22 giây.
+
+### CẢNH 1: KHỞI ĐẦU NỀN VĂN MINH (0–4 GIÂY)
+
+- Màn hình tối.
+- Bụi vàng dần xuất hiện.
+- Ánh sáng vàng lan tỏa.
+- Công trình Parthenon hiện ra từ bóng tối.
+- Camera tiến chậm về phía ngôi đền.
+- Ánh sáng chiếu qua các cột đá.
+- Hiệu ứng điện ảnh chân thực.
+
+### CẢNH 2: GIỚI THIỆU NHÀ TRƯỜNG (4–9 GIÂY)
+
+Logo chính thức của TRƯỜNG THPT CẨM PHẢ xuất hiện ở chính giữa màn hình.
+
+Hiệu ứng:
+
+- Vòng sáng vàng mở rộng.
+- Hạt sáng xoay quanh logo.
+- Logo xuất hiện rõ nét.
+- Ánh sáng chiếu nhẹ phía sau.
+
+Hiển thị:
+
+TRƯỜNG THPT CẨM PHẢ
+
+SÁNG TẠO – KHÁM PHÁ – CHINH PHỤC TRI THỨC
+
+Yêu cầu logo:
+
+- Admin tự upload logo từ thiết bị.
+- Giữ nguyên tỷ lệ, hình dáng, màu sắc và nội dung.
+- Không tự vẽ lại logo.
+- Không tạo logo giả.
+- Không làm méo logo.
+- Có thể thay thế logo trong Admin.
+
+Nếu chưa có logo, hiển thị khu vực dự phòng tinh tế, không tự nhận là logo chính thức.
+
+### CẢNH 3: GIỚI THIỆU CHỦ ĐỀ (9–14 GIÂY)
+
+- Một cuộn giấy cổ xuất hiện.
+- Cuộn giấy từ từ mở ra.
+- Các ký tự Hy Lạp và Latin lần lượt hiện lên.
+- Tiêu đề xuất hiện bằng chữ vàng ánh kim.
+
+THÀNH TỰU TIÊU BIỂU CỦA VĂN MINH HY LẠP – LA MÃ CỔ ĐẠI
+
+CHỮ VIẾT VÀ VĂN HỌC
+
+### CẢNH 4: CUỐN SÁCH XUẤT HIỆN (14–22 GIÂY)
+
+- Camera di chuyển qua không gian cổ đại.
+- Một cuốn sách điện tử dạng dọc xuất hiện.
+- Bìa sách có hoa văn Hy Lạp.
+- Ánh sáng vàng tỏa ra phía sau.
+- Cuốn sách xoay nhẹ trong không gian 3D.
+- Xuất hiện nút lớn:
+
+**BẮT ĐẦU KHÁM PHÁ**
+
+Dòng giới thiệu:
+
+"Ngược dòng thời gian – Khám phá những di sản vượt thời đại."
+
+Có nút nhỏ BỎ QUA GIỚI THIỆU.
+
+## 3. Chuyển cảnh từ INTRO vào sách
+
+Đầu tư đặc biệt vào hiệu ứng chuyển cảnh.
+
+Khi nhấn BẮT ĐẦU KHÁM PHÁ:
+
+1. Nút bắt đầu phát sáng.
+2. Camera tiến gần cuốn sách.
+3. Cuốn sách dọc phóng lớn ở chính giữa.
+4. Bìa sách mở bằng hiệu ứng lật trang 3D.
+5. Ánh sáng vàng lan ra toàn màn hình.
+6. Không gian intro mờ dần.
+7. Giao diện đọc sách xuất hiện.
+8. Người dùng được đưa vào trang bìa hoặc trang đầu tiên.
+
+Chuyển cảnh phải liền mạch, không nhấp nháy, không xuất hiện màn hình trắng.
+
+## 4. Tách biệt INTRO và SÁCH
+
+- INTRO là một màn hình độc lập.
+- INTRO không phải trang sách.
+- INTRO có bố cục ngang toàn màn hình.
+- Sách sau INTRO luôn giữ tỷ lệ dọc.
+- Có thể bỏ qua INTRO.
+- Có nút phát lại INTRO trong giao diện sách.
+- Không để INTRO lặp liên tục trong cùng một phiên truy cập.
+- Cho phép Admin bật/tắt INTRO.
+
+## 5. Âm thanh INTRO
+
+Nhạc nền và âm thanh INTRO phải do Admin tự upload.
+
+Không tự tạo nhạc, không tự lồng tiếng và không sử dụng AI tạo giọng đọc.
+
+Nếu chưa có nhạc, INTRO vẫn hoạt động bình thường bằng hiệu ứng hình ảnh.
+
+---
+
+# PHẦN III. CẤU TRÚC CUỐN SÁCH ĐIỆN TỬ
+
+Thiết kế lần lượt các trang sau:
+
+## TRANG 1: BÌA SÁCH
+
+Tiêu đề:
+
+THÀNH TỰU TIÊU BIỂU CỦA VĂN MINH HY LẠP – LA MÃ CỔ ĐẠI
+
+CHỮ VIẾT VÀ VĂN HỌC
+
+Thiết kế:
+
+- Hình ảnh đền Parthenon.
+- Cột đá Hy Lạp.
+- Cuộn giấy cổ.
+- Bút lông.
+- Bảng chữ cái Latin.
+- Hoa văn Hy Lạp cổ đại.
+- Logo THPT CẨM PHẢ.
+- Hiệu ứng ánh sáng vàng.
+
+Bìa sách phải sang trọng, có chiều sâu và không quá nhiều chữ.
+
+## TRANG 2: LỜI MỞ ĐẦU
+
+Tiêu đề: LỜI MỞ ĐẦU
+
+Nội dung:
+
+“Hy Lạp và La Mã cổ đại là hai nền văn minh rực rỡ, có những đóng góp to lớn đối với lịch sử phát triển của nhân loại. Những thành tựu của hai nền văn minh này không chỉ thể hiện trí tuệ, óc sáng tạo mà còn đặt nền móng cho nhiều lĩnh vực của thế giới hiện đại.
+
+Trong đó, chữ viết và văn học là những di sản đặc biệt quan trọng. Chữ viết giúp con người ghi chép, lưu giữ và truyền đạt tri thức; văn học phản ánh đời sống, tư tưởng, trí tưởng tượng và những khát vọng của con người cổ đại.
+
+Hãy cùng mở cuốn sách và khám phá những thành tựu đặc sắc ấy!”
+
+Có khu vực nghe thuyết minh bằng file âm thanh do Admin upload.
+
+## TRANG 3: MỤC LỤC
+
+Thiết kế mục lục dạng thẻ cổ đại.
+
+Các mục:
+
+01. Chữ viết Hy Lạp và La Mã.
+
+02. Dấu ấn của chữ viết Latin đối với chữ Quốc ngữ Việt Nam.
+
+03. Văn học Hy Lạp và La Mã.
+
+04. Thần thoại cổ đại.
+
+05. Sử thi Iliad và Odyssey.
+
+06. Trò chơi tương tác.
+
+07. Kiểm tra kiến thức.
+
+08. Tổng kết.
+
+Khi nhấn vào từng mục, sách chuyển đến đúng trang.
+
+## TRANG 4: CHỮ VIẾT HY LẠP
+
+Tiêu đề: CHỮ VIẾT HY LẠP
+
+Nội dung:
+
+- Người Hy Lạp cổ đại tiếp thu hệ thống chữ viết của người Phoenicia.
+- Họ cải tiến hệ thống chữ này bằng cách bổ sung các ký tự biểu thị nguyên âm.
+- Sự cải tiến giúp chữ viết thể hiện ngôn ngữ đầy đủ và thuận tiện hơn.
+- Bảng chữ cái Hy Lạp trở thành một trong những nền tảng quan trọng đối với lịch sử chữ viết phương Tây.
+
+Hình ảnh:
+
+- Bảng chữ cái Hy Lạp.
+- Bia đá khắc chữ Hy Lạp.
+- Cuộn giấy cổ.
+- Các ký tự Alpha, Beta, Gamma, Delta.
+
+Tương tác:
+
+Khi nhấn vào từng ký tự, hiển thị tên gọi và thông tin giải thích.
+
+Có nút nghe thuyết minh bằng file Admin tải lên.
+
+## TRANG 5: CHỮ VIẾT LA MÃ
+
+Tiêu đề: CHỮ VIẾT LA MÃ
+
+Nội dung:
+
+- Người La Mã tiếp thu nhiều ảnh hưởng từ hệ thống chữ viết Hy Lạp thông qua người Etruscan.
+- Từ đó, họ phát triển và hoàn thiện bảng chữ cái Latin.
+- Chữ Latin được sử dụng rộng rãi trong quản lý nhà nước, luật pháp, văn học, bia ký và đời sống.
+- Qua quá trình lịch sử, chữ Latin trở thành hệ chữ có ảnh hưởng sâu rộng trên thế giới.
+
+Hình ảnh:
+
+- Bảng chữ cái Latin.
+- Bia đá La Mã.
+- Văn bản cổ.
+- Các ký tự A, B, C, D.
+
+Tương tác:
+
+Nhấn vào từng hình ảnh để phóng to và đọc thông tin.
+
+## TRANG 6: DẤU ẤN CHỮ LATIN ĐỐI VỚI CHỮ QUỐC NGỮ VIỆT NAM
+
+Tiêu đề:
+
+TỪ CHỮ LATIN ĐẾN CHỮ QUỐC NGỮ VIỆT NAM
+
+Nội dung:
+
+- Chữ Quốc ngữ của Việt Nam sử dụng hệ chữ cái Latin.
+- Chữ Quốc ngữ hình thành trong bối cảnh hoạt động truyền giáo tại Việt Nam từ thế kỷ XVII, với sự tham gia của nhiều giáo sĩ và học giả.
+- Alexandre de Rhodes là một trong những nhân vật có đóng góp quan trọng trong việc hệ thống hóa và phổ biến chữ Quốc ngữ.
+- Năm 1651, ông xuất bản cuốn Từ điển Việt – Bồ – La.
+- Qua nhiều thế kỷ, chữ Quốc ngữ được hoàn thiện và trở thành hệ chữ viết chính thức được sử dụng phổ biến tại Việt Nam hiện nay.
+
+Lưu ý:
+
+Không khẳng định Alexandre de Rhodes là người duy nhất sáng tạo ra chữ Quốc ngữ.
+
+Hình ảnh:
+
+- Bảng chữ cái Latin.
+- Từ điển Việt – Bồ – La năm 1651.
+- Chữ Quốc ngữ cổ.
+- Văn bản tiếng Việt hiện đại.
+
+Tạo hiệu ứng chuyển đổi từ bảng chữ Latin cổ sang văn bản tiếng Việt hiện đại.
+
+## TRANG 7: VĂN HỌC HY LẠP – LA MÃ
+
+Tiêu đề: NHỮNG GIÁ TRỊ VĂN HỌC RỰC RỠ
+
+Nội dung:
+
+Văn học Hy Lạp và La Mã cổ đại phát triển phong phú với nhiều thể loại, trong đó nổi bật là thần thoại và sử thi.
+
+Các tác phẩm văn học không chỉ phản ánh đời sống tinh thần, tín ngưỡng và trí tưởng tượng của con người cổ đại mà còn gửi gắm những quan niệm về đạo đức, lòng dũng cảm, danh dự, tình yêu và khát vọng chinh phục thế giới.
+
+Thiết kế:
+
+- Hình ảnh nhà hát Hy Lạp.
+- Tượng các nhân vật thần thoại.
+- Cuộn giấy cổ.
+- Hình ảnh chiến binh Hy Lạp.
+
+## TRANG 8: THẦN THOẠI HY LẠP – LA MÃ
+
+Tiêu đề: THẾ GIỚI THẦN THOẠI CỔ ĐẠI
+
+Nội dung:
+
+Thần thoại là tập hợp những câu chuyện dân gian kể về các vị thần, anh hùng và những hiện tượng tự nhiên.
+
+Thần thoại phản ánh cách con người cổ đại giải thích nguồn gốc vũ trụ, thế giới tự nhiên và cuộc sống của con người. Qua đó, chúng ta có thể thấy được trí tưởng tượng phong phú, niềm tin và thế giới quan của người Hy Lạp – La Mã.
+
+Tạo khu vực tương tác với các vị thần:
+
+1. ZEUS – Thần tối cao, cai quản bầu trời và sấm sét.
+2. ATHENA – Nữ thần trí tuệ và chiến tranh chính nghĩa.
+3. POSEIDON – Thần biển cả.
+4. APOLLO – Thần ánh sáng, nghệ thuật và tiên tri.
+5. APHRODITE – Nữ thần tình yêu và sắc đẹp.
+
+Mỗi vị thần có hình ảnh minh họa riêng.
+
+Khi nhấn vào từng vị thần:
+
+- Hình ảnh phóng to.
+- Ánh sáng phát ra.
+- Hiển thị tên.
+- Hiển thị mô tả.
+- Có thể phát file thuyết minh do Admin upload.
+
+## TRANG 9: SỬ THI ILIAD
+
+Tiêu đề:
+
+ILIAD – BẢN HÙNG CA VỀ CHIẾN TRANH TROY
+
+Nội dung:
+
+Iliad là một trong hai sử thi nổi tiếng gắn với tên tuổi Homer.
+
+Tác phẩm tập trung phản ánh một giai đoạn trong cuộc chiến thành Troy, nổi bật là cơn giận của người anh hùng Achilles.
+
+Tác phẩm khắc họa những trận chiến khốc liệt, lòng dũng cảm, danh dự, vinh quang và cả bi kịch của chiến tranh.
+
+Nhân vật tiêu biểu:
+
+- Achilles.
+- Hector.
+- Agamemnon.
+- Priam.
+
+Tạo khu vực VIDEO MINH HỌA.
+
+Video được Admin tải lên từ thiết bị, không tự tìm hoặc tự tạo video.
+
+## TRANG 10: SỬ THI ODYSSEY
+
+Tiêu đề:
+
+ODYSSEY – HÀNH TRÌNH TRỞ VỀ QUÊ HƯƠNG
+
+Nội dung:
+
+Odyssey là sử thi nổi tiếng gắn với tên tuổi Homer, kể về hành trình trở về quê hương Ithaca của người anh hùng Odysseus sau chiến tranh thành Troy.
+
+Trên hành trình ấy, Odysseus phải vượt qua nhiều thử thách nguy hiểm như quái vật Cyclops, biển cả dữ dội và những cạm bẫy trên đường đi.
+
+Tác phẩm đề cao trí tuệ, lòng dũng cảm, ý chí kiên cường, tình yêu gia đình và khát vọng trở về quê hương.
+
+Tạo khu vực VIDEO MINH HỌA.
+
+Video được Admin tải lên từ thiết bị, không tự tìm hoặc tự tạo video.
+
+## TRANG 11: TRÒ CHƠI TƯƠNG TÁC – PHÂN LOẠI THÀNH TỰU
+
+Tiêu đề:
+
+THỬ TÀI NHÀ SỬ HỌC
+
+Xây dựng trò chơi kéo thả trực tiếp trên website.
+
+Có hai khu vực cố định:
+
+- CHỮ VIẾT.
+- VĂN HỌC.
+
+Các thẻ thành tựu xuất hiện phía dưới.
+
+Học sinh kéo thả từng thẻ vào đúng khu vực.
+
+Danh sách 12 thẻ:
+
+1. Bảng chữ cái Hy Lạp — Chữ viết.
+2. Bảng chữ cái Latin — Chữ viết.
+3. Thần thoại Hy Lạp — Văn học.
+4. Sử thi Iliad — Văn học.
+5. Sử thi Odyssey — Văn học.
+6. Việc bổ sung nguyên âm vào hệ thống chữ viết Phoenicia — Chữ viết.
+7. Những câu chuyện về thần Zeus — Văn học.
+8. Chữ Quốc ngữ sử dụng hệ chữ cái Latin — Chữ viết.
+9. Các tác phẩm kể về hành trình của người anh hùng Odysseus — Văn học.
+10. Những câu chuyện giải thích nguồn gốc vũ trụ và tự nhiên — Văn học.
+11. Các bia đá khắc chữ Latin — Chữ viết.
+12. Các truyền thuyết về Athena và Poseidon — Văn học.
+
+Cơ chế:
+
+- Đúng: +10 điểm.
+- Sai: -5 điểm.
+- Hiệu ứng đúng/sai.
+- Âm thanh tương ứng nếu Admin đã upload.
+- Hiển thị số câu đã hoàn thành.
+- Có nút chơi lại.
+- Có bảng tổng kết điểm.
+
+Giao diện trực quan, đẹp và dễ sử dụng bằng chuột hoặc màn hình cảm ứng.
+
+## TRANG 12: KIỂM TRA KIẾN THỨC
+
+Tiêu đề:
+
+THỬ THÁCH KIẾN THỨC LỊCH SỬ
+
+Tạo trò chơi trắc nghiệm 10 câu.
+
+Mỗi câu có 4 phương án A, B, C, D.
+
+Thời gian: 20 giây mỗi câu.
+
+### CÂU 1
+
+Người Hy Lạp cổ đại tiếp thu hệ thống chữ viết từ dân tộc nào?
+
+A. Ai Cập.
+
+B. Phoenicia.
+
+C. La Mã.
+
+D. Lưỡng Hà.
+
+Đáp án: B.
+
+### CÂU 2
+
+Người Hy Lạp đã cải tiến chữ viết Phoenicia bằng cách nào?
+
+A. Bỏ các phụ âm.
+
+B. Bổ sung các ký tự biểu thị nguyên âm.
+
+C. Chỉ sử dụng hình vẽ.
+
+D. Chuyển sang chữ tượng hình.
+
+Đáp án: B.
+
+### CÂU 3
+
+Người La Mã phát triển hệ chữ viết nào?
+
+A. Chữ tượng hình.
+
+B. Chữ Phạn.
+
+C. Chữ Latin.
+
+D. Chữ Hán.
+
+Đáp án: C.
+
+### CÂU 4
+
+Chữ Quốc ngữ Việt Nam sử dụng hệ chữ cái nào?
+
+A. Hy Lạp.
+
+B. Latin.
+
+C. Ả Rập.
+
+D. Hán.
+
+Đáp án: B.
+
+### CÂU 5
+
+Alexandre de Rhodes có đóng góp nổi bật nào đối với chữ Quốc ngữ?
+
+A. Là người duy nhất sáng tạo chữ Quốc ngữ.
+
+B. Sáng tạo bảng chữ cái Hy Lạp.
+
+C. Góp phần hệ thống hóa và phổ biến chữ Quốc ngữ qua từ điển năm 1651.
+
+D. Phát minh chữ Latin.
+
+Đáp án: C.
+
+### CÂU 6
+
+Hai bộ sử thi nổi tiếng gắn với tên tuổi Homer là gì?
+
+A. Iliad và Odyssey.
+
+B. Aeneid và Iliad.
+
+C. Odyssey và Metamorphoses.
+
+D. Aeneid và Odyssey.
+
+Đáp án: A.
+
+### CÂU 7
+
+Nhân vật anh hùng nổi bật trong sử thi Iliad là ai?
+
+A. Zeus.
+
+B. Achilles.
+
+C. Odysseus.
+
+D. Apollo.
+
+Đáp án: B.
+
+### CÂU 8
+
+Sử thi Odyssey kể về nội dung gì?
+
+A. Cuộc chiến giữa các vị thần.
+
+B. Sự hình thành thành Rome.
+
+C. Hành trình trở về quê hương của Odysseus.
+
+D. Cuộc chiến tranh Ba Tư.
+
+Đáp án: C.
+
+### CÂU 9
+
+Thần thoại Hy Lạp – La Mã phản ánh điều gì?
+
+A. Chỉ các hoạt động kinh tế.
+
+B. Cách con người cổ đại giải thích nguồn gốc vũ trụ, tự nhiên và con người.
+
+C. Chỉ các sự kiện quân sự.
+
+D. Những quy định pháp luật.
+
+Đáp án: B.
+
+### CÂU 10
+
+Giá trị nổi bật của văn học Hy Lạp – La Mã cổ đại là gì?
+
+A. Chỉ có giá trị giải trí.
+
+B. Không có ảnh hưởng đến văn học sau này.
+
+C. Để lại di sản có ảnh hưởng lâu dài đối với văn học và văn hóa nhân loại.
+
+D. Chỉ được lưu truyền trong thời cổ đại.
+
+Đáp án: C.
+
+### CƠ CHẾ TRÒ CHƠI
+
+- Mỗi câu có đồng hồ đếm ngược 20 giây.
+- Chọn đáp án xong chuyển câu.
+- Hết giờ tự động chuyển câu.
+- Đúng được 10 điểm.
+- Sai không được điểm.
+- Có giải thích ngắn sau mỗi câu.
+- Cuối bài hiển thị tổng điểm trên 100.
+- Có hiệu ứng pháo sáng khi hoàn thành.
+- Có nút làm lại bài kiểm tra.
+
+Xếp loại:
+
+90–100: Xuất sắc.
+
+81–89: Rất tốt.
+
+70–80: Tốt.
+
+61–69: Khá.
+
+50–60: Cần ôn tập thêm.
+
+Dưới 50: Hãy thử lại nhé!
+
+## TRANG 13: TỔNG KẾT
+
+Tiêu đề:
+
+NHỮNG DI SẢN VƯỢT THỜI GIAN
+
+Nội dung:
+
+“Văn minh Hy Lạp và La Mã cổ đại đã để lại cho nhân loại nhiều thành tựu có giá trị to lớn. Trong đó, chữ viết góp phần lưu giữ và truyền bá tri thức, còn văn học phản ánh đời sống tinh thần, trí tưởng tượng và những khát vọng cao đẹp của con người.
+
+Dù đã trải qua hàng nghìn năm, những di sản ấy vẫn tiếp tục hiện diện và có ảnh hưởng sâu sắc đến thế giới hiện đại.
+
+Khám phá lịch sử không chỉ là tìm hiểu quá khứ mà còn là cách để chúng ta hiểu hơn về hiện tại và trân trọng những giá trị mà nhân loại đã tạo dựng.”
+
+Thiết kế:
+
+- Ánh sáng vàng.
+- Đền Parthenon.
+- Cuộn giấy cổ.
+- Các ký tự Hy Lạp và Latin.
+- Hiệu ứng kết thúc điện ảnh.
+
+Dòng chữ cuối:
+
+CẢM ƠN THẦY CÔ VÀ CÁC BẠN ĐÃ THEO DÕI!
+
+---
+
+# PHẦN IV. HỆ THỐNG UPLOAD HÌNH ẢNH, VIDEO VÀ LỜI THUYẾT MINH
+
+ĐÂY LÀ YÊU CẦU BẮT BUỘC.
+
+**TOÀN BỘ HÌNH ẢNH, VIDEO, LỜI THUYẾT MINH VÀ NHẠC NỀN ĐỀU DO ADMIN TỰ TẢI TỪ THIẾT BỊ LÊN.**
+
+Không tự động tạo video bằng AI.
+
+Không tự động tạo giọng đọc.
+
+Không tự lồng tiếng trước.
+
+Không tự tìm và chèn video ngẫu nhiên.
+
+Không dùng video mẫu để thay thế video thật của Admin.
+
+Không bắt buộc sử dụng tài nguyên có sẵn trên Internet.
+
+## 1. Quản lý hình ảnh
+
+Admin có thể:
+
+- Tải ảnh từ máy tính.
+- Xem trước ảnh.
+- Đặt tên và mô tả.
+- Chọn trang cần hiển thị.
+- Gắn ảnh vào từng nội dung.
+- Thay thế ảnh.
+- Xóa ảnh.
+- Quản lý nhiều ảnh.
+
+Định dạng hỗ trợ: JPG, PNG, WEBP.
+
+Học sinh chỉ được xem ảnh.
+
+## 2. Quản lý video
+
+Tạo khu vực:
+
+QUẢN LÝ VIDEO
+
+Admin có thể:
+
+- Chọn video trực tiếp từ thiết bị.
+- Hỗ trợ MP4 và WebM.
+- Xem trước video.
+- Đặt tên video.
+- Viết mô tả.
+- Chọn trang sách cần hiển thị.
+- Gắn video vào nội dung cụ thể.
+- Thay thế video.
+- Xóa video.
+- Upload nhiều video.
+- Theo dõi tiến trình tải lên.
+- Nhận thông báo thành công hoặc thất bại.
+
+Học sinh chỉ có quyền xem video.
+
+Giao diện phát video gồm:
+
+- Phát/tạm dừng.
+- Thanh tiến trình.
+- Điều chỉnh âm lượng.
+- Tua video.
+- Toàn màn hình.
+- Tỷ lệ hiển thị phù hợp với sách dọc.
+
+Video chỉ phát khi học sinh chủ động nhấn nút phát.
+
+Nếu chưa có video, hiển thị thông báo "Video đang được cập nhật".
+
+## 3. Quản lý lời thuyết minh
+
+Tạo khu vực riêng:
+
+QUẢN LÝ LỜI THUYẾT MINH
+
+Admin tự chuẩn bị file ghi âm bên ngoài và tải lên website.
+
+Định dạng hỗ trợ:
+
+- MP3.
+- WAV.
+- OGG.
+
+Admin có thể:
+
+- Chọn file âm thanh từ máy tính.
+- Nghe thử trước khi lưu.
+- Đặt tên lời thuyết minh.
+- Viết mô tả.
+- Chọn trang sách cần gắn âm thanh.
+- Gắn âm thanh vào hình ảnh hoặc nội dung cụ thể.
+- Thay thế file.
+- Xóa file.
+- Tải nhiều file cho nhiều trang.
+
+Một trang có thể có nhiều file thuyết minh khác nhau.
+
+Ví dụ:
+
+- Trang chữ viết Hy Lạp: file giới thiệu tổng quan.
+- Bảng chữ cái Hy Lạp: file giới thiệu riêng.
+- Trang thần thoại: file giới thiệu chung.
+- Thần Zeus: file giới thiệu riêng.
+- Thần Athena: file giới thiệu riêng.
+- Trang Iliad: file giới thiệu riêng.
+- Trang Odyssey: file giới thiệu riêng.
+
+Học sinh nhìn thấy nút:
+
+NGHE THUYẾT MINH.
+
+Khi nhấn, phát đúng file được Admin gắn với nội dung đó.
+
+Có:
+
+- Phát.
+- Tạm dừng.
+- Nghe lại.
+- Thanh tiến trình.
+- Điều chỉnh âm lượng.
+
+Khi chuyển sang trang khác, âm thanh trang trước phải tự dừng để tránh phát chồng tiếng.
+
+Nếu chưa có âm thanh, không hiển thị nút nghe hoặc hiển thị thông báo đang cập nhật.
+
+**Không sử dụng AI Text-to-Speech. Không tự tạo giọng đọc. Không tự động lồng tiếng vào nội dung.**
+
+## 4. Quản lý nhạc nền INTRO và âm thanh hiệu ứng
+
+Admin có thể upload:
+
+- Nhạc nền intro.
+- Âm thanh lật trang.
+- Âm thanh tương tác.
+- Âm thanh đúng/sai trong trò chơi.
+- Âm thanh kết thúc.
+
+Hỗ trợ MP3, WAV, OGG.
+
+Có chức năng nghe thử, thay thế, xóa và điều chỉnh âm lượng.
+
+Không tự tạo nhạc bằng AI.
+
+Nếu không có file âm thanh, các chức năng hình ảnh vẫn phải hoạt động bình thường.
+
+## 5. Quy tắc chung
+
+- Chỉ Admin được upload, sửa, thay thế và xóa tư liệu.
+- Học sinh chỉ xem, nghe và tương tác.
+- Không lưu file bằng localStorage.
+- Không sử dụng đường dẫn file tạm trên máy Admin.
+- File phải được lưu thực tế trên máy chủ hoặc dịch vụ lưu trữ.
+- Nội dung vẫn tồn tại sau khi tải lại website.
+- Có kiểm tra định dạng, dung lượng và lỗi upload.
+- Có tiến trình tải lên.
+- Có thông báo thành công và thất bại.
+
+---
+
+# PHẦN V. HỆ THỐNG ADMIN QUẢN TRỊ
+
+Xây dựng khu vực quản trị riêng tại:
+
+/admin
+
+Chỉ Admin được phép truy cập.
+
+## 1. Đăng nhập Admin
+
+- Có giao diện đăng nhập riêng.
+- Xác thực thông qua backend.
+- Không để lộ mật khẩu trong frontend.
+- Có chức năng đăng xuất.
+- Có phân quyền thực sự.
+- Không chỉ ẩn nút bằng CSS hoặc JavaScript.
+- Các API upload và chỉnh sửa đều phải kiểm tra quyền.
+
+## 2. Dashboard
+
+Thiết kế dashboard hiện đại, có:
+
+- Tổng số trang sách.
+- Tổng số hình ảnh.
+- Tổng số video.
+- Tổng số file thuyết minh.
+- Tổng số file âm thanh.
+- Số lượt truy cập nếu có thống kê.
+- Quản lý nội dung.
+- Quản lý đa phương tiện.
+- Quản lý logo trường.
+- Quản lý intro.
+- Quản lý thông tin nhóm.
+- Quản lý trò chơi.
+
+## 3. Quản lý nội dung sách
+
+Admin có thể:
+
+- Chỉnh sửa tiêu đề.
+- Chỉnh sửa đoạn văn.
+- Chỉnh sửa nội dung thuyết minh.
+- Thay đổi thứ tự trang.
+- Thêm trang mới.
+- Ẩn hoặc hiện trang.
+- Lưu thay đổi.
+- Xem trước nội dung trước khi xuất bản.
+
+## 4. Quản lý logo trường
+
+- Upload logo chính thức.
+- Xem trước logo.
+- Thay logo.
+- Xóa logo.
+- Tự động cập nhật logo tại intro, bìa sách và chân trang.
+- Giữ nguyên tỷ lệ và màu sắc logo.
+
+## 5. Quản lý intro
+
+Tạo khu vực:
+
+CÀI ĐẶT MÀN HÌNH MỞ ĐẦU
+
+Admin có thể:
+
+- Upload logo.
+- Upload hình nền.
+- Upload video nền intro.
+- Upload nhạc nền.
+- Chỉnh sửa tiêu đề.
+- Chỉnh sửa dòng giới thiệu.
+- Bật/tắt intro.
+- Điều chỉnh thời lượng.
+- Xem trước intro.
+- Lưu thay đổi.
+
+## 6. Phân quyền
+
+Admin có toàn quyền quản trị.
+
+Học sinh chỉ có thể:
+
+- Đọc sách.
+- Xem ảnh.
+- Xem video.
+- Nghe thuyết minh.
+- Chơi trò chơi.
+- Làm bài kiểm tra.
+
+Học sinh không được:
+
+- Upload file.
+- Sửa nội dung.
+- Xóa nội dung.
+- Thay video.
+- Thay âm thanh.
+- Truy cập API quản trị.
+
+Phải kiểm tra quyền ở backend, không chỉ ẩn các nút trên giao diện.
+
+---
+
+# PHẦN VI. CHẾ ĐỘ TRÌNH CHIẾU THAO GIẢNG
+
+Xây dựng PRESENTATION MODE.
+
+Khi bật chế độ này:
+
+- Hiển thị sách lớn và rõ.
+- Có thể bật toàn màn hình.
+- Ẩn các thành phần quản trị.
+- Ẩn các nút không cần thiết.
+- Không thay đổi tỷ lệ sách dọc.
+- Hỗ trợ phím mũi tên trái/phải.
+- Có thể phát lời thuyết minh đã upload.
+- Video hiển thị rõ trên máy chiếu.
+- Không để nội dung bị che khuất.
+- Có nút thoát chế độ trình chiếu.
+- Có thể bật/tắt âm thanh nền.
+
+Giao diện phải phù hợp khi giáo viên sử dụng máy chiếu trong lớp học.
+
+---
+
+# PHẦN VII. ĐIỀU HƯỚNG SÁCH
+
+Xây dựng hệ thống điều hướng chuyên nghiệp:
+
+- Nút trang trước.
+- Nút trang tiếp theo.
+- Số trang hiện tại.
+- Tổng số trang.
+- Thanh tiến trình đọc sách.
+- Mục lục mở nhanh.
+- Vuốt chuyển trang trên điện thoại.
+- Phím mũi tên trên máy tính.
+- Nút trở về bìa sách.
+- Nút phát lại intro.
+
+Hiệu ứng lật trang 3D phải mượt, chân thực và không làm mất nội dung.
+
+---
+
+# PHẦN VIII. YÊU CẦU KỸ THUẬT
+
+Xây dựng website hoàn chỉnh, không chỉ tạo giao diện minh họa.
+
+Có thể sử dụng:
+
+- React hoặc Next.js.
+- Tailwind CSS.
+- Framer Motion.
+- Thư viện hiệu ứng lật trang 3D.
+- Node.js.
+- Express.
+- MySQL hoặc cơ sở dữ liệu tương đương.
+- Dịch vụ lưu trữ file phù hợp.
+
+Yêu cầu:
+
+1. Các nút bấm phải hoạt động thực tế.
+2. Điều hướng phải hoạt động.
+3. Trò chơi kéo thả phải chấm điểm chính xác.
+4. Bài kiểm tra phải tính điểm chính xác.
+5. Video phải phát được.
+6. Âm thanh phải phát được.
+7. Admin phải upload được file từ thiết bị.
+8. Nội dung chỉnh sửa phải được lưu.
+9. Phân quyền phải được kiểm tra ở backend.
+10. Website phải responsive.
+11. Tối ưu tốc độ tải trang.
+12. Có xử lý lỗi khi upload.
+13. Có thông báo thành công và thất bại.
+14. Không sử dụng dữ liệu giả để mô phỏng chức năng.
+15. Không tạo nút bấm chỉ để trang trí.
+16. Không để sách bị vỡ bố cục khi trình chiếu.
+17. Có cơ chế bảo vệ API quản trị.
+18. Có giới hạn dung lượng và kiểm tra loại file.
+19. Có xử lý trường hợp file chưa tải lên.
+20. Có phương án lưu trữ và sao lưu dữ liệu.
+
+Không được tuyên bố chức năng đã hoàn thành nếu backend hoặc lưu trữ chưa thực sự hoạt động.
+
+Nếu môi trường triển khai chưa hỗ trợ backend, phải thông báo rõ các chức năng chưa thể vận hành thực tế.
+
+---
+
+# PHẦN IX. KIỂM TRA TRƯỚC KHI BÀN GIAO
+
+Hãy tự kiểm tra toàn bộ sản phẩm:
+
+### INTRO
+- Intro có xuất hiện ngay khi mở website không?
+- Có phải một màn hình độc lập không?
+- Logo trường có hiển thị đúng không?
+- Có nút bắt đầu và bỏ qua không?
+- Chuyển cảnh vào sách có mượt không?
+- Có thể phát lại intro không?
+
+### SÁCH ĐIỆN TỬ
+- Sách có thực sự là dạng dọc không?
+- Có hiệu ứng lật trang 3D không?
+- Mục lục có điều hướng đúng không?
+- Nội dung có đầy đủ không?
+- Có giữ bố cục trên điện thoại không?
+
+### ĐA PHƯƠNG TIỆN
+- Admin có upload được ảnh không?
+- Admin có upload được video không?
+- Admin có upload được lời thuyết minh không?
+- Admin có upload được nhạc intro không?
+- Các file có được lưu thực tế không?
+- Học sinh có thể phát video và nghe âm thanh không?
+- Âm thanh có tự dừng khi chuyển trang không?
+
+### TRÒ CHƠI
+- Kéo thả có hoạt động không?
+- Chấm điểm có chính xác không?
+- Có hiển thị đúng/sai không?
+- Có chơi lại được không?
+
+### ADMIN
+- Có đăng nhập được không?
+- Có phân quyền thật không?
+- Có chỉnh sửa được nội dung không?
+- Có thay thế và xóa file không?
+- Dữ liệu có tồn tại sau khi tải lại không?
+
+### TRÌNH CHIẾU
+- Có bật toàn màn hình được không?
+- Sách có rõ trên máy chiếu không?
+- Có điều hướng bằng bàn phím không?
+- Có ẩn được các thành phần quản trị không?
+
+---
+
+# PHẦN X. TIÊU CHUẨN THÀNH PHẨM
+
+Hãy ưu tiên:
+
+1. Thiết kế đẹp và chuyên nghiệp.
+2. Hiệu ứng chuyển động chân thực.
+3. Nội dung lịch sử chính xác.
+4. Sách dọc đúng yêu cầu.
+5. Intro điện ảnh riêng biệt.
+6. Upload đa phương tiện thực tế.
+7. Admin quản trị dễ sử dụng.
+8. Trò chơi tương tác hấp dẫn.
+9. Trình chiếu ổn định.
+10. Tối ưu cho môi trường lớp học.
+
+Không làm sơ sài, không bỏ qua các chức năng quan trọng và không thay thế yêu cầu bằng giao diện giả lập.
+
+**MỤC TIÊU CUỐI CÙNG: XÂY DỰNG MỘT CUỐN SÁCH ĐIỆN TỬ LỊCH SỬ DẠNG DỌC CAO CẤP, CÓ MÀN HÌNH INTRO ĐIỆN ẢNH ĐỘC LẬP, HIỆU ỨNG 3D CHÂN THỰC, HỆ THỐNG ADMIN UPLOAD TOÀN BỘ TƯ LIỆU TỪ THIẾT BỊ, CÁC HOẠT ĐỘNG TƯƠNG TÁC VÀ CHẾ ĐỘ TRÌNH CHIẾU CHUYÊN NGHIỆP, ĐỦ CHẤT LƯỢNG ĐỂ SỬ DỤNG TRONG BUỔI THAO GIẢNG TẠI TRƯỜNG THPT CẨM PHẢ.**
+
+Hãy bắt đầu xây dựng toàn bộ sản phẩm theo đúng các yêu cầu trên. Ưu tiên hoàn thiện từng chức năng thực tế, không chỉ tạo bản demo giao diện.

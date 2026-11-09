@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold-bronze: #C69C50;
+    --color-gold-metallic: #E7C77A;
+    --color-parchment-tan: #B58A59;
+    --color-deep-brown: #39271D;
+    --color-terracotta: #A64B35;
+    --color-mediterranean: #174B58;
+    --color-ancient-teal: #286B70;
+    --color-volcanic-dark: #171614;
+  }
+
+  body {
+    background-color: #12100E;
+    color: #F4EAD4;
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-cinzel, .font-heading {
+    font-family: 'Lora', 'Cinzel', Georgia, serif;
+    letter-spacing: 0.02em;
+    line-height: 1.35;
+  }
+
+  .font-garamond, .font-serif-body {
+    font-family: 'Lora', Georgia, serif;
+    line-height: 1.7;
+  }
+
+  .font-latin-glyph {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Ancient Parchment & Manuscript Texture */
+.bg-parchment {
+  background: 
+    radial-gradient(ellipse at 50% 20%, rgba(247, 237, 213, 0.98), rgba(228, 209, 172, 0.95)),
+    linear-gradient(135deg, #FAF4E5 0%, #E9D7B7 50%, #D8BE93 100%);
+  color: #2A1D15;
+}
+
+.bg-parchment-dark {
+  background: 
+    radial-gradient(ellipse at 50% 40%, rgba(46, 32, 23, 0.98), rgba(24, 18, 14, 0.98)),
+    linear-gradient(180deg, #38271B 0%, #1E1510 100%);
+  color: #F5E8D0;
+}
+
+/* Golden Leaf Foil Glow */
+.gold-glow {
+  text-shadow: 0 0 15px rgba(231, 199, 122, 0.6), 0 0 30px rgba(198, 156, 80, 0.4);
+}
+
+.gold-border {
+  border-color: #C69C50;
+  box-shadow: 0 0 12px rgba(198, 156, 80, 0.25), inset 0 0 12px rgba(198, 156, 80, 0.15);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0B8 0%, #E7C77A 40%, #C69C50 70%, #8C6228 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Greek Key / Meander pattern border */
+.greek-border {
+  border: 2px solid #C69C50;
+  box-shadow: inset 0 0 0 4px #2A1D15, inset 0 0 0 6px #C69C50;
+}
+
+.greek-border-light {
+  border: 2px solid #C69C50;
+  box-shadow: inset 0 0 0 3px #FAF4E5, inset 0 0 0 5px #C69C50;
+}
+
+/* 3D Book Spine & Paper Edge Shadows */
+.book-podium-shadow {
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.85),
+    0 0 30px rgba(198, 156, 80, 0.18),
+    inset 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+.book-page-shadow-left {
+  box-shadow: -15px 0 25px -5px rgba(0, 0, 0, 0.45);
+}
+
+.book-spine {
+  background: linear-gradient(90deg, rgba(30, 20, 15, 0.9) 0%, rgba(60, 42, 28, 0.4) 40%, transparent 100%);
+}
+
+/* Custom Scrollbar for inner page reading */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(40, 28, 20, 0.1);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #C69C50;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #E7C77A;
+}
+
+/* Floating dust particles animation */
+@keyframes floatParticle {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  20% { opacity: 0.8; }
+  80% { opacity: 0.8; }
+  100% { transform: translateY(-100vh) translateX(30px); opacity: 0; }
+}
+
+.animate-dust {
+  animation: floatParticle 14s linear infinite;
+}
